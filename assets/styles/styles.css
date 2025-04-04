@@ -134,3 +134,45 @@ a {
   color: #ffffff;
 }
 /* about me section end*/
+
+/* projects section */
+.projects-container {
+  padding: 1.8rem 7px;
+  background-color: #070707;
+  color: #fff;
+
+  display: grid;
+  gap: 2rem;
+}
+
+.projects-container__project {
+  background-color: #1c1c1e;
+  padding: 1rem 0.8rem;
+  border-radius: 0.5rem;
+}
+
+.projects-container__project__image {
+}
+.projects-container__project__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding-top: 0.8rem;
+}
+
+.projects-container__project__links {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.projects-container__project__links a {
+  background-color: #fff;
+  color: #070707;
+  font-weight: bold;
+  padding: 10px 17px;
+  border-radius: 5px;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+/* projects section end */

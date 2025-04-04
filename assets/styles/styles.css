@@ -252,7 +252,7 @@ text-[#ffffffbb] hover:bg-[#2c2c2e] hover:text-white transition-colors duration-
 
 .main-footer__social-container {
   display: flex;
-  gap: 0.6rem;
+  gap: 0.8rem;
 }
 
 .social-github,

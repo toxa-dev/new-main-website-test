@@ -151,7 +151,7 @@ a {
   border-radius: 0.5rem;
 }
 
-.projects-container__project__image {
+.projects-container__project__image img {
   border-radius: 5px;
 }
 .projects-container__project__text {

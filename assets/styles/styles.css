@@ -242,5 +242,43 @@ text-[#ffffffbb] hover:bg-[#2c2c2e] hover:text-white transition-colors duration-
 
 /* behavior styles end*/
 
-/**/
-/**/
+/* main footer */
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.4rem 1.2rem 0.4rem;
+}
+
+.main-footer__social-container {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.social-github,
+.social-twitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  box-shadow: 0 0 0 2px #fff;
+  transition: color 0.2s ease-in-out;
+  color: #000;
+}
+
+.social-github:hover,
+.social-twitter:hover {
+  color: #fff;
+  box-shadow: 0 0 0 3px #fff;
+}
+
+.twitter-icon {
+  color: ;
+  transition: color 0.2s ease-in-out;
+}
+.twitter-icon:hover {
+  color: #fff;
+}
+/* main footer end*/

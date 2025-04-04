@@ -7,6 +7,31 @@ body {
   font-family: var(--system-ui);
 }
 
+/* behavior styles */
+
+.expand-full-view-port {
+  height: 100vh;
+}
+
+.scroll-y {
+  overflow-y: scroll;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+/* behavior styles end*/
+
+/* general styles */
+.projects-spacing {
+  padding: 0 0.4rem 1.2rem 0.4rem;
+}
+.main-colors {
+  background-color: #070707;
+  color: #fff;
+}
+/* general styles end*/
 a {
   text-decoration: none;
   color: inherit;
@@ -27,20 +52,6 @@ a {
 .main-header__nav {
   order: 1;
 }
-/* behavior styles */
-
-.expand-full-view-port {
-  height: 100vh;
-}
-
-.scroll-y {
-  overflow-y: scroll;
-}
-
-.no-scroll {
-  overflow: hidden;
-}
-/* behavior styles end*/
 
 /* hamburger menu */
 .main-header__hamburger-group__container {
@@ -136,9 +147,11 @@ a {
 /* about me section end*/
 
 /* projects section */
+.projects-header {
+  margin: 0;
+  padding: 1.2rem 0 0.9rem 0;
+}
 .projects-container {
-  padding: 1.8rem 7px;
-  background-color: #070707;
   color: #fff;
 
   display: grid;

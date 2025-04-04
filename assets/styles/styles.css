@@ -114,7 +114,6 @@ a {
 /* Optional: Add some extra flair */
 .main__heading:hover {
   transition: transform 0.3s ease;
-  transform: scale(1.01); /* Slight grow effect on hover */
 }
 /* main end */
 

@@ -152,6 +152,7 @@ a {
 }
 
 .projects-container__project__image {
+  border-radius: 5px;
 }
 .projects-container__project__text {
   display: flex;

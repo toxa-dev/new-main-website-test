@@ -7,26 +7,11 @@ body {
   font-family: var(--system-ui);
 }
 
-/* behavior styles */
-
-.expand-full-view-port {
-  height: 100vh;
-}
-
-.scroll-y {
-  overflow-y: scroll;
-}
-
-.no-scroll {
-  overflow: hidden;
-}
-
-/* behavior styles end*/
-
 /* general styles */
 .projects-spacing {
   padding: 0 0.4rem 1.2rem 0.4rem;
 }
+
 .main-colors {
   background-color: #070707;
   color: #fff;
@@ -190,3 +175,19 @@ a {
 }
 
 /* projects section end */
+
+/* behavior styles */
+
+.expand-full-view-port {
+  height: 100vh;
+}
+
+.scroll-y {
+  overflow-y: scroll;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+/* behavior styles end*/

@@ -19,7 +19,7 @@ a {
   overflow: hidden;
   transition: height 0.36s cubic-bezier(0.52, 0.16, 0.24, 1);
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   position: relative;
   font-size: 28px;
 }
